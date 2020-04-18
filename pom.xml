@@ -23,7 +23,19 @@
             <version>${akka.version}</version>
         </dependency>
 
-<!--        <dependency>-->
+        <dependency>
+            <groupId>org.scalameta</groupId>
+            <artifactId>scalameta_${scala.version}</artifactId>
+            <version>4.3.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalameta</groupId>
+            <artifactId>munit_${scala.version}</artifactId>
+            <version>0.7.1</version>
+        </dependency>
+
+
+        <!--        <dependency>-->
 <!--            <groupId>ml.dmlc</groupId>-->
 <!--            <artifactId>xgboost4j</artifactId>-->
 <!--            <version>0.90</version>-->
