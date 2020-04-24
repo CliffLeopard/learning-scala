@@ -1,0 +1,9 @@
+val list1 = List("A", "B", "C")
+val list2 = "D" :: "E" :: list1
+val list3 = "A" :: "B" :: "C" :: Nil
+val list4 = list1 ++ list3
+val list5 = list1 ::: list3
+val list6 = list1 :+ "D"
+val list7 = "A" +: "D" //- 生成Vector
+val list8 = list1 +: "D"
+val list9 = "D" +:"E" +: list1 // 语法糖，看起来有点晕眩，试验再用
