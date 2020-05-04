@@ -4,4 +4,4 @@ out/
 *.class
 *.log
 learningscala.iml
-
+target/

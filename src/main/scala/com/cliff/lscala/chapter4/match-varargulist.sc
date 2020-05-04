@@ -28,6 +28,7 @@ val wheres = Seq(
 
 for (where <- wheres) {
   where match {
+    // @ 符号，用来匹配不确定数量的参数或剩余参数
     case WhereIn(col, val1, vals@_*) =>
       val valStr = (val1 +: vals).mkString(",")
       println(s"Where $col IN ($valStr)")
