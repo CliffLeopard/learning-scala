@@ -55,8 +55,8 @@
 
         <dependency>
             <groupId>ml.dmlc</groupId>
-            <artifactId>xgboost4j</artifactId>
-            <version>0.90</version>
+            <artifactId>xgboost4j_${scala.version}</artifactId>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
