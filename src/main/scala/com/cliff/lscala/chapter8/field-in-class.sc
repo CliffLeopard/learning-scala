@@ -24,3 +24,12 @@ val name2 = new Name2("HelloWorld")
 
 name1.value
 name2.value = "Fuck"
+
+class Name3(s:String){
+  var value = s
+}
+
+val name3 = new Name3("Buck")
+name3.value
+name3.value = "Fuck"
+name3.value
